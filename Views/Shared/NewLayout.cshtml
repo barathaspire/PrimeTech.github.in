@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PRIME TECH</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href=@Url.Content("~/lib/css/animate.css")>
+    <link rel="stylesheet" href=@Url.Content("~/lib/css/owl.carousel.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/lib/css/owl.theme.default.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/lib/css/magnific-popup.css")>
+    <link rel="stylesheet" href=@Url.Content("~/lib/css/flaticon.css")>
+    <link rel="stylesheet" href=@Url.Content("~/lib/css/style.css")>
+    <link rel="stylesheet" href=@Url.Content("~/lib/css/font-awesome.min.css")>
+
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light fixed-top" id="ftco-navbar">
+        <div class="container">
+            <img src="~/images/COMPANY_LOGO.PNG">            
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active"><a href="@Url.Action("Index", "Master")" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="@Url.Action("About", "Master")" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="@Url.Action("Product", "Master")" class="nav-link">Products</a></li>
+                    <li class="nav-item"><a href="@Url.Action("Service", "Master")" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="@Url.Action("Contact", "Master")" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer">
+			<div class="container-fluid px-lg-5">
+				<div class="row">
+					<div class="col-md-10 py-5">
+						<div class="row">
+							<div class="col-md-10 mb-md-0 mb-4">
+								<h2 class="footer-heading">About us</h2>
+								<p style="font-size:17px">We (Aspire-Health) are a healthcare consulting and IT services provider that specializes in solutions for the Medicare / Medicaid marketplace. We offer subject matter expertise and consulting services to health plans in the Medicare arena and provide affordable business and technology solutions.</p>
+							
+							</div>
+						</div>
+						<div class="row mt-md-5">
+							<div class="col-md-12">
+								<p class="copyright">
+					  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+</footer>
+
+
+    <script type="text/javascript" src=@Url.Content("~/lib/jquery/dist/jquery.min.js")></script>
+    <script type="text/javascript" src=@Url.Content("~/lib/jquery/dist/jquery-migrate-3.0.1.min.js")></script>
+    <script type="text/javascript" src=@Url.Content("~/lib/jquery/dist/popper.min.js")></script>
+    <script type="text/javascript" src=@Url.Content("~/lib/jquery/dist/bootstrap.min.js")></script>
+    <script type="text/javascript" src=@Url.Content("~/lib/jquery/dist/jquery.easing.1.3.js")></script>
+    <script type="text/javascript" src=@Url.Content("~/lib/jquery/dist/jquery.waypoints.min.js")></script>
+    <script type="text/javascript" src=@Url.Content("~/lib/jquery/dist/jquery.stellar.min.js")></script>
+    <script type="text/javascript" src=@Url.Content("~/lib/jquery/dist/jquery.animateNumber.min.js")></script>
+    <script type="text/javascript" src=@Url.Content("~/lib/jquery/dist/owl.carousel.min.js")></script>
+    <script type="text/javascript" src=@Url.Content("~/lib/jquery/dist/jquery.magnific-popup.min.js")></script>
+    <script type="text/javascript" src=@Url.Content("~/lib/jquery/dist/scrollax.min.js")></script>
+    <script type="text/javascript" src=@Url.Content("~/lib/jquery/dist/main.js")></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

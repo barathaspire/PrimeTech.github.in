@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\css\ajax-loader.gif" />
+    <None Include="wwwroot\lib\css\animate.css" />
+    <None Include="wwwroot\lib\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\lib\css\bootstrap.min.css" />
+    <None Include="wwwroot\lib\css\bootstrap\bootstrap-grid.css" />
+    <None Include="wwwroot\lib\css\bootstrap\bootstrap-reboot.css" />
+    <None Include="wwwroot\lib\css\flaticon.css" />
+    <None Include="wwwroot\lib\css\magnific-popup.css" />
+    <None Include="wwwroot\lib\css\mixins\_text-hide.css" />
+    <None Include="wwwroot\lib\css\owl.carousel.min.css" />
+    <None Include="wwwroot\lib\css\owl.theme.default.min.css" />
+    <None Include="wwwroot\lib\css\style.css" />
+    <None Include="wwwroot\fonts\.DS_Store" />
+    <None Include="wwwroot\fonts\flaticon\.DS_Store" />
+    <None Include="wwwroot\fonts\flaticon\backup.txt" />
+    <None Include="wwwroot\fonts\flaticon\font\flaticon.css" />
+    <None Include="wwwroot\fonts\flaticon\font\Flaticon.eot" />
+    <None Include="wwwroot\fonts\flaticon\font\flaticon.html" />
+    <None Include="wwwroot\fonts\flaticon\font\Flaticon.svg" />
+    <None Include="wwwroot\fonts\flaticon\font\Flaticon.ttf" />
+    <None Include="wwwroot\fonts\flaticon\font\Flaticon.woff" />
+    <None Include="wwwroot\fonts\flaticon\font\Flaticon.woff2" />
+    <None Include="wwwroot\fonts\flaticon\font\_flaticon.css" />
+    <None Include="wwwroot\fonts\flaticon\font\_flaticon.scss" />
+    <None Include="wwwroot\fonts\flaticon\license\license.pdf" />
+    <None Include="wwwroot\images\bg_15.jpg" />
+    <None Include="wwwroot\images\bg_16_BKUP.jpg" />
+    <None Include="wwwroot\images\bg_17.jpg" />
+    <None Include="wwwroot\images\bg_17_C.jpg" />
+    <None Include="wwwroot\images\bg_18.jpg" />
+    <None Include="wwwroot\images\Broker_Portal.jpg" />
+    <None Include="wwwroot\images\Broker_Portal_C.jpg" />
+    <None Include="wwwroot\images\Capture.PNG" />
+    <None Include="wwwroot\images\Capture2.png" />
+    <None Include="wwwroot\images\Chart_Management.jpg" />
+    <None Include="wwwroot\images\Chart_Management_C.jpg" />
+    <None Include="wwwroot\images\COMPANY_LOGO.PNG" />
+    <None Include="wwwroot\images\METS_C.jpg" />
+    <None Include="wwwroot\images\ProviderCapitationProductimage_C.jpg" />
+    <None Include="wwwroot\images\revnue_management.jpg" />
+    <None Include="wwwroot\images\revnue_management_C.jpg" />
+    <None Include="wwwroot\images\SalesBrokerPortel.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DnsClient" Version="1.7.0" />
+  </ItemGroup>
+
+</Project>
